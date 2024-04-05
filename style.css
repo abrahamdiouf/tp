@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: black;
+}
+nav{
+    
+    background: rgb(1, 1, 63);
+    color: white;
+}
+.info{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 4rem 0rem 4rem;
+}
+.info h3{
+    background: #ffa400;
+    color: black;
+    margin-left: 5rem;
+}
+.slogan{
+    justify-content: space-around;
+}
+span{
+    color: #ffa400;
+}
+.slogan h6{
+    font-size: 8px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50%;
+}
+ul span{
+    height: 50px;
+    width: 60px;
+    color: white;
+    background: #ffa400;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+    margin: 7px;
+}
+section{
+    background-image:url("media/img2.jpg") ;
+    background-size: center;
+    background-position: center;
+    position: fixed;
+    height: 250px;
+    width: 100%;
+    margin-top: 2%; 
+    display: flex;
+}
+.contenu{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-top: 4rem;
+    color: white;
+}
+.contenu i{
+    height: 16px;
+    width: 16px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.contenu h1{
+    color: #ffa400;
+    font-style: italic;
+    font-size: 30px;
+}
+.contenu button{
+    background: #ffa400;
+    color: black;
+    font-size: 15px;
+    height: 30px;
+    width: 90px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+.box{
+    height: 100px;
+    width: 150px;
+    background: black;
+    margin-right: 15rem;
+    margin-top: 5rem;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.box h4{
+    color: white;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.box span{
+    color: #ffa400;
+    font-size: 30px;
+}
+.image{
+    display: flex;
+    margin-top: 19rem;
+}
+.xalil{
+    margin-left: 7rem;
+}
+.xalil img{
+    margin-top: 3rem;
+    margin-left: rem;
+}
+.xalil p{
+    color: white;
+}
+.xalil h1{
+    margin-top: 5px;
+    border-bottom: #ffa400 solid 5px;
+    width: 8rem;
+}
+.xalil button{
+    margin-bottom: rem;
+}
+
+
+
